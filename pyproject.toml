@@ -6,3 +6,6 @@ build-backend = "hatchling.build"
 name = "chapter-4"
 version = "0.1"
 dependencies = ["matplotlib", "scipy", "numpy"]
+
+[tool.hatch.build.targets.wheel]
+      packages = ["life", "scripts"]
